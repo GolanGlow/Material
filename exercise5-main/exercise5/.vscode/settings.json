@@ -1,0 +1,9 @@
+{
+    "cmake.configureOnOpen": false,
+    "cmake.ctestArgs": [
+        // "--verbose"
+    ],
+    "lldb.verboseLogging": true,
+    "lldb.showDisassembly": "never",
+    "lldb.consoleMode": "commands"
+}

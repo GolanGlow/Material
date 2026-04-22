@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(cmake/ctest) lldb session",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${cmake.testProgram}",
+            "args": [
+                "${cmake.testArgs}"
+            ],
+            "cwd": "${cmake.testWorkingDirectory}",
+            "preRunCommands": [
+                "breakpoint set --name main"
+            ]
+        }
+    ]
+}

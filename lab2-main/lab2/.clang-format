@@ -1,0 +1,15 @@
+BasedOnStyle: LLVM
+ColumnLimit:  120
+TabWidth:     4
+IndentWidth:  4
+DerivePointerAlignment: false
+PointerAlignment: Left
+AllowShortFunctionsOnASingleLine: Empty
+BreakBeforeBinaryOperators: None
+AllowAllParametersOfDeclarationOnNextLine: false
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBraces: Allman
+AlwaysBreakTemplateDeclarations: Yes
+NamespaceIndentation: All
+---
